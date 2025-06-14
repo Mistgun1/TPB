@@ -58,7 +58,7 @@ class List(object):
         """
         request = get(str(self.url),headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                   '(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    'Referer': 'https://thepiratebay.se',
+    'Referer': 'https://thepiratebay.org',
     'Accept-Language': 'en-US,en;q=0.9',
 }
 )
@@ -350,7 +350,7 @@ class Torrent(object):
             request = get(str(self.url), headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                   '(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    'Referer': 'https://thepiratebay.se',
+    'Referer': 'https://thepiratebay.org',
     'Accept-Language': 'en-US,en;q=0.9',
 }
 )
@@ -367,7 +367,7 @@ class Torrent(object):
             request = get(str(url), headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                   '(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    'Referer': 'https://thepiratebay.se',
+    'Referer': 'https://thepiratebay.org',
     'Accept-Language': 'en-US,en;q=0.9',
 }
 )
